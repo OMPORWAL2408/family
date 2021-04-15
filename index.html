@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Family Album </title>
+  </head>
+   <body>
+    <p id="TITLE">Family tour</p>
+     
+  
+    <p>
+     <img id="album" src="Small boy.jpg">
+      <div>
+        <button type= "button" onclick="nextslide()"> Next </button>
+    </div>
+    <script>
+        var images = [
+            "father.jpg",
+            "mother.jpg",
+            "brother.webp",
+            "sister.jpg",
+            "grandma.jpg",
+            "grandpa.jpg",
+        ]
+
+  ;
+
+var i = 0;
+function nextslide() { 
+  document.getElementById("album").src = images[i];
+  
+                      
+ 
+}
+    </script>
+   
+</body>
+</html>
